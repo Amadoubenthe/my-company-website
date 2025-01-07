@@ -1,0 +1,78 @@
+:root {
+  --light-blue: #dde3f3;
+  --blue: #00358b;
+  --orange: #ff9700;
+  --gray: #d7d7d7;
+  --green: #96c396;
+  --red: #eb2f2f;
+  /* --main-bg-color: #f4f4f4;
+  --main-text-color: #333;
+  --main-link-color: #007bff;
+  --main-link-hover-color: #0056b3;
+  --main-border-color: #ccc;
+  --main-border-radius: 5px;
+  --main-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  --main-transition: all 0.3s ease; */
+}
+
+.roboto-thin {
+  font-family: "Roboto", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* header */
+.header{
+  background: var(--blue);
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px;
+  align-items: center;
+}
+
+.header__logo{
+  width: 200px;
+}
+
+.header__navContainer{
+  display: flex;
+  gap: 16px;
+}
+
+.header__navItem{
+  list-style-type: none;
+  margin-right: 8px;
+  font-family: "Roboto", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.header__navLink{
+  color: white;
+  text-decoration: none;
+  text-indent: none;
+
+}
+
+.header__icon{
+  display: none;
+}
